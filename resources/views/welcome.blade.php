@@ -86,9 +86,10 @@
                                 <div class="card mb-4">
                                     <div class="card-header">
                                         <i class="fas fa-chart-pie me-1"></i>
-                                        Pie Chart Example
+                                        Transaksi peminjaman Buku
                                     </div>
                                     <div class="card-body"><canvas id="myPieChart" width="100%" height="50"></canvas></div>
+                                    <div class="text-center"><h3>9 Buku</h3></div>
                                     <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
                                 </div>
                             </div>
@@ -96,15 +97,15 @@
                                 <div class="card mb-4">
                                     <div class="card-header">
                                         <i class="fas fa-table me-1"></i>
-                                        Keterlambatan Peminjaman
+                                        Keterlambatan Pengembalian
                                     </div>
                                     <div class="card-body">
-                                        <table id="datatablesSimple">
+                                        <table class="table">
                                             <thead>
                                                 <tr>
-                                                    <th>Name</th>
+                                                    <th>Tanggal Kembali</th>
                                                     <th>status</th>
-                                                    <th>kelas</th>
+                                                    <th>Denda Keterlambatan</th>
                                                     <th>detail</th>
                                                 </tr>
                                             </thead>
@@ -131,9 +132,8 @@
                                     <thead>
                                         <tr>
                                         <th scope="col">No</th>
-                                        <th scope="col">Nama Penguna</th>
-                                        <th scope="col">Kelas</th>
-                                        <th scope="col">Rombel</th>
+                                        <th scope="col">Tanggal Pinjam</th>
+                                        <th scope="col">Batas pengembalian</th>
                                         <th scope="col">Aksi</th>
                                         </tr>
                                     </thead>
@@ -142,8 +142,9 @@
                                         <th scope="row">1</th>
                                         <td>aiya</td>
                                         <td>1A</td>
-                                        <td>@mdo</td>
-                                        <td><button type="button" class="btn btn-success btn-sm">Ready</button></td>
+                                        <td>
+                                            <button type="button" class="btn btn-warning btn-sm">Update</button>
+                                        </td>
                                         </tr>
                                     </tbody>
                                 </table>

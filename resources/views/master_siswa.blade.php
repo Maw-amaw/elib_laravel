@@ -60,10 +60,12 @@
                                         <th scope="col">Rombel</th>
                                         <th scope="col">Tanggal Lahir</th>
                                         <th scope="col">Tahun Masuk</th>
+                                        <th scope="col">aksi</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
+                                        <td>aisya</td>
                                         <td>aisya</td>
                                         <td><button type="button" class="btn btn-dangger btn-sm">123 hari</button></td>
                                         <td>@mdo</td>

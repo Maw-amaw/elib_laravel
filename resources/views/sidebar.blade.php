@@ -21,6 +21,11 @@
                                     <a class="nav-link" href="{{route('Rakbuku')}}">Rak Buku</a>
                                     <a class="nav-link" href="{{route('bahasa')}}">Bahasa</a>
                                     <a class="nav-link" href="{{route('buku')}}">Buku</a>
+                                    <a class="nav-link" href="{{route('gmd')}}">kode gmd</a>
+                                    <a class="nav-link" href="{{route('tipekoleksi')}}">Tipe Koleksi</a>
+                                    <a class="nav-link" href="{{route('peminjaman')}}">peminjaman</a>
+                                    <a class="nav-link" href="{{route('ddc')}}">kode ddc</a>
+                                    <a class="nav-link" href="{{route('kodeeksemplar')}}">kode eksemplar</a>
                                 </nav>
                             </div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
@@ -30,26 +35,21 @@
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseGMD" aria-expanded="false" aria-controls="pagesCollapseGMD">
-                                        GMD
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    <a class="nav-link collapsed" href="{{route('kelassiswa')}}">
+                                        Kelas Siswa
                                     </a>
-                                    <div class="collapse" id="pagesCollapseGMD" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages"></div>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapsekoleksi" aria-expanded="false" aria-controls="pagesCollapsekoleksi">
-                                        Tipe Koleksi
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    <a class="nav-link collapsed" href="{{route('eksemplarbuku')}}">
+                                        Eksemplar Buku 
                                     </a>
-                                    <div class="collapse" id="pagesCollapsekoleksi" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages"></div>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseeksemplar" aria-expanded="false" aria-controls="pagesCollapseeksemplar">
-                                        Kode Eksemplar
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    <a class="nav-link collapsed" href="{{route('stokopname')}}">
+                                        Stok Opname
                                     </a>
-                                    <div class="collapse" id="pagesCollapseeksemplar" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages"></div>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapselokasi" aria-expanded="false" aria-controls="pagesCollapselokasi">
-                                        Lokasi
-                                        <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                    <a class="nav-link collapsed" href="{{route('bukustok')}}">
+                                        Buku terpindai stok 
                                     </a>
-                                    <div class="collapse" id="pagesCollapselokasi" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages"></div>
+                                    <a class="nav-link collapsed" href="{{route('kunjunganperpustakaan')}}">
+                                        Kunjungan perpustakaan
+                                    </a>
                                 </nav>
                             </div>
                         </div>

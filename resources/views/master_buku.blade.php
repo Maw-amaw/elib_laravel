@@ -86,7 +86,7 @@
                                         <td>aisya</td>
                                         <td><button type="button" class="btn btn-dangger btn-sm">123 hari</button></td>
                                         <td>
-                                            <a href="{{route('update_kelas')}}" class="btn btn-success btn-sm">update</a>
+                                            <a href="{{route('update_buku')}}" class="btn btn-success btn-sm">update</a>
                                             <a href="{{route('siswa')}}" class="btn btn-danger btn-sm">delete</a>
                                         </td>
                                         </tr>
@@ -95,7 +95,7 @@
                             </div>
                         </div>
                         <br>
-                        <a class="btn btn-success btn-sm btn-kiri" href="{{route('create_kelas')}}" role="button"><h3>+</h3></i></a>
+                        <a class="btn btn-success btn-sm btn-kiri" href="{{route('create_buku')}}" role="button"><h3>+</h3></i></a>
                     </div>
                 </main>
                 <footer class="py-4 bg-light mt-auto">
